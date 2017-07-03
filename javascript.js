@@ -1,3 +1,4 @@
+//searchBar
 function active(){
   var searchBar = document.getElementById('searchBar');
 
@@ -15,6 +16,7 @@ function inactive(){
   }
 }
 
+//smoothScroll
 $(document).ready(function(){
   $('#btn').click(function(e){
 
