@@ -203,9 +203,10 @@ nav a:hover {
 }
 
 #list-div {
-	width: 100%;
+  width: 100%;
   margin: 0 auto;
   overflow: auto;
+  margin-left: 18em;
 }
 
 .categories-list {
