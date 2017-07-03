@@ -2,41 +2,53 @@
 
 <html>
 	<head>
-	<script src="jquery-3.2.1.js"></script>
-	<script src="javascript.js"></script>
-	<title>SafeFiles</title>
-	<link rel="stylesheet" href="style.css">
+		<script src="jquery-3.2.1.js"></script>
+		<script src="javascript.js"></script>
+		<title>SafeFiles</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 		<body>
 			<header>
-			    <div class="container">
-				<h1 class="logo"></h1>
+				<div class="container">
+					<h1 class="logo"></h1>
 
-			<div class="container">
-			  <nav>
-				<ul>
-				  <li><a href="Svetaine.html">Home</a></li>
-				  <li><a href="error.html">About</a></li>
-				  <li><a href="error.html">Programs</a></li>
-				  <li><a href="error.html">List</a></li>
-				</ul>
-				<form action="search.php" method="post">
-					<input type="text" id="searchBar" placeholder="" value="Search..." maxlength="20" autocomplete="off" onmousedown="active();" onblur="inactive();"/><input type=submit id="searchButton" value="Go!"/>
-				</form>
-			  </nav>
-			</div>
+					<div class="container">
+				  <nav>
+					<ul>
+					  <li><a href="Svetaine.html">Home</a></li>
+					  <li><a href="error.html">About</a></li>
+					  <li><a href="error.html">Programs</a></li>
+					  <li><a href="error.html">List</a></li>
+					</ul>
+					<form action="search.php" method="post">
+						<input type="text" id="searchBar" placeholder="" value="Search..." maxlength="20" autocomplete="off" onmousedown="active();" onblur="inactive();"/><input type=submit id="searchButton" value="Go!"/>
+					</form>
+				  </nav>
+				</div>
 			</header>
 			<section class="intro">
 				<div class="inner">
-			<div id="header">
+					<div id="header">
 				<h1 id="align-center">Safe software - anytime, anywhere</h1>
 				<a id="btn" href="#programs">Get Started</a>
-			</div>
-			</div>
+				</div>
+				</div>
 			</section>
-			<div style="height: 2000px;">
-				<h1 id="programs">Programs</h1>
+			<div style="height: 1000px;">
+				<!--kategorijos-->
+				<div id="categories_div">
+					<h1 id="programs" class="categories">Categories:</h1>
+					<h2 class="categories">Select one of the categories below</h2>
+				</div>
+			<div id=list-div>
+				<ul class=categories-list>
+			    <li class=list-item><a href="#">Antiviruses</a></li>
+			    <li class=list-item><a href="#">Text editors</a></li>
+			    <li class=list-item><a href="#">Photo editors</a></li>
+			    <li class=list-item><a href="#">Downloaders</a></li>
+			    <li class=list-item><a href="#">Video editors</a></li>
+  			</ul>
 			</div>
-			<p>this i a paragraph</p>
+			</div>
 		</body>
 </html>
