@@ -124,3 +124,26 @@ nav a:hover {
 #align-center{
 	text-align: center;
 }
+
+.programos {
+	margin-left: 200px;
+	margin-top: 30px;
+	border: 2px solid black;
+	max-width: 304px;
+}
+
+.programos-aprasymas {
+	background-color: white;
+	border: 2px solid black;
+	max-width: 900px;
+	height: 300px;
+	margin-left: 550px;
+	margin-top: 0;
+	position: relative;
+	bottom: 300px;
+}
+
+.download {
+	height: 50px;
+	width: 70px;
+}
