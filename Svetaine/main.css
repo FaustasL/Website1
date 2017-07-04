@@ -81,7 +81,7 @@ nav a:hover::before {
 
 nav a:hover {
   text-decoration: none;
-  color: lightgrey;
+  color: lightgreen;
 }
 
 .div-name {
@@ -192,6 +192,8 @@ nav a:hover {
 .categories {
 	text-align: center;
 	color: white;
+	padding: 0 auto;
+	margin: 0 auto;
 }
 
 #categories_div {
@@ -200,13 +202,14 @@ nav a:hover {
 	position: relative;
 	left: 810px;
 	border-radius: 10px;
+	border: 1px solid black;
+	margin-top: 20px;
 }
 
 #list-div {
-  width: 100%;
-  margin: 0 auto;
+  max-width: 2000px;
+  margin-left: 250px;
   overflow: auto;
-  margin-left: 18em;
 }
 
 .categories-list {
