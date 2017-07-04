@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: #FAFAFA;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	margin-left: 15em;
+}
+
+#start_page {
+	background-image: url(http://img.hrhwalls.com/images4/dnxwhlebxpr.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+	color: white;
+}
+
+#logo {
+  float: left;
+  padding: 7px 0;
+}
+
+nav {
+  float: right;
+	height: 50px;
+	margin-top: 5em;
+}
+
+nav ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 3em;
+  padding-top: 19.5px;
+  position: relative;
+}
+
+nav a {
+  color: white; /*balta*/
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.div-name {
+	background-color: #55d6aa;
+	height: 40px;
+	width: 90px;
+	border-radius: 5px;
+	position: relative;
+	left: 10px;
+}
+
+.main-name {
+	position: relative;
+	top: 6px;
+	left: 3px;
+}
+
+}
+
+#form {
+	position: relative;
+	top: 20px;
+}
+
+#searchBar {
+	border: 1px solid #000000;
+	border-right: none;
+	font-size: 16px;
+	padding: 5px;
+	outline: none;
+	width: 200px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-radius-topLeft: 10px;
+	-moz-border-radius-bottomLeft: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	position: relative;
+	bottom: 24px;
+	left: 550px;
+	margin-bottom: -5px;
+}
+
+#searchButton {
+	border: 1px solid #000000;
+	font-size: 16px;
+	padding: 5px;
+	background: #444;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	color: white;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topRight: 10px;
+	-moz-border-radius-bottomRight: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	position: relative;
+	bottom: 24px;
+	left: 550px;
+}
+
+#searchButton:hover {
+	color: #55d6aa;
+}
+
+#header {
+	background-attachment: fixed;
+	color: white;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+}
+
+#header h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #FFF;
+	text-shadow: 0px 0px 300px #000;
+	font-size: 500%;
+	margin-top: -2em;
+}
+
+#btn {
+	border-radius: 9px;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 135%;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: solid white 3px;
+	text-transform: uppercase;
+}
+
+#btn:hover {
+	color: lightgreen;
+	border: solid lightgreen 3px;
+}
+
+#align-center{
+	text-align: center;
+}
+
+.categories {
+	text-align: center;
+	color: white;
+}
+
+#categories_div {
+	background-color: #444;
+	max-width: 30vh;
+	position: relative;
+	left: 810px;
+	border-radius: 10px;
+}
+
+#list-div {
+	width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.categories-list {
+  list-style-type: none;
+}
+
+.list-item img {
+  float: left;
+  margin: 10px;
+  border: 5px solid #fff;
+
+  -webkit-transition: box-shadow 0.5s ease;
+  -moz-transition: box-shadow 0.5s ease;
+  -o-transition: box-shadow 0.5s ease;
+  -ms-transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease;
+}
+
+.list-item img:hover {
+  -webkit-box-shadow: 0px 0px 7px rgba(255,255,255,0.9);
+  box-shadow: 0px 0px 7px rgba(255,255,255,0.9);
+}
