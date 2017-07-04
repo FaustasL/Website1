@@ -11,14 +11,8 @@ html, body {
 	font-weight: 400;
 }
 
-.container {
-	width: 80%;
-	margin: 0 auto;
-	margin-left: 15em;
-}
-
-#start_page {
-	background-image: url(http://partysaints.co.uk/wp-content/uploads/2016/07/background-for-website.jpg);
+.jumbotron {
+	background-image: url(opce.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -31,32 +25,22 @@ header::after {
 	color: white;
 }
 
-#logo {
-  float: left;
-  padding: 7px 0;
-}
-
-nav {
-  float: right;
-	height: 50px;
-	margin-top: 1em;
-}
-
-nav ul {
-  margin: 0 auto;
+ul {
+  margin: 0 0px 0 0;
   padding: 0;
   list-style: none;
+	float: right;
 }
 
-nav li {
+ul li {
   display: inline-block;
-  margin-left: 3em;
   padding-top: 19.5px;
   position: relative;
+	margin: 1em;
 }
 
-nav a {
-  color: white;
+ul li a {
+  color: silver;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1.25em;
@@ -231,4 +215,10 @@ nav a:hover {
 .list-item img:hover {
   -webkit-box-shadow: 0px 0px 7px rgba(255,255,255,0.9);
   box-shadow: 0px 0px 7px rgba(255,255,255,0.9);
+}
+
+.row h1{
+	color: silver;
+	font-family: 'Oswald', sans-serif;
+	float: left;
 }
