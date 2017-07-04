@@ -1,0 +1,42 @@
+/*CSS
+
+Vaziuojam :D
+{
+  background-image: url(mountain.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+*/
+
+.jumbotron {
+  background-image: url(http://img.hrhwalls.com/images4/dnxwhlebxpr.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+  height: 75em;;
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul li{
+  display: inline;
+  margin: 1em;
+}
+
+.col-md-8 ul{
+  float: right;
+  margin-top: 1.2em;
+}
+
+.col-md-4 h2{
+  float: left;
+  font-size: 50px;
+}
+
+.text-center{
+  margin-top: 15em;
+}
