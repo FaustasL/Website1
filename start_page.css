@@ -45,6 +45,7 @@ header a {
 	padding: 0.5rem;
 	font-size: 1rem;
 	font-weight: 700;
+	text-transform: uppercase;
 }
 
 header a:hover{
@@ -122,6 +123,6 @@ footer li img {
   height: 2rem;
 }
 
-#categories .row{
+#hate .row{
 	height: 54rem;
 }
