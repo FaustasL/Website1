@@ -1,6 +1,6 @@
 //smoothScroll
 $(document).ready(function(){
-  $('#cmon').click(function(e){
+  $('#about_scroll, #btn, #categories_scroll').click(function(e){
 
     var linkHref = $(this).attr('href');
     $('html, body').animate({
@@ -11,18 +11,7 @@ $(document).ready(function(){
   })
 })
 
-//smoothScroll
-$(document).ready(function(){
-  $('#btn').click(function(e){
 
-    var linkHref = $(this).attr('href');
-    $('html, body').animate({
-      scrollTop: $(linkHref).offset().top
-    })
-
-    e.preventDefault();
-  })
-})
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon*/
 function myFunction() {
