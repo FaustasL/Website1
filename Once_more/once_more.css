@@ -234,8 +234,8 @@ p{
 }
 
 .bg .categories, .about {
-  margin-top: 15%;
-  margin-bottom: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -270,7 +270,7 @@ p{
 }
 
 .images {
-  margin-bottom: 20%;
+  margin-bottom: 15%;
 }
 
 .images .image-container {

@@ -11,7 +11,7 @@ body {
 
 .parallax {
     /* The image used */
-    background-image: url('new-york-city-beautiful-wallpaper-iphone.jpg');
+    background-image: url('1.jpg');
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -89,7 +89,7 @@ body {
   align-items: center;
   text-align: center;
   /*background-color: rgba(	237,	200,	147, 0.9);*/
-  background-image: url('new-york-hd-background-picture-0004.jpg');
+  background-image: url('1.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
