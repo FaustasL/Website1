@@ -1,6 +1,6 @@
 //smoothScroll
 $(document).ready(function(){
-  $('#btn').click(function(e){
+  $('#btn, #bnt').click(function(e){
 
     var linkHref = $(this).attr('href');
     $('html, body').animate({
